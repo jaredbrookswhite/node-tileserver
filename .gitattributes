@@ -1,0 +1,7 @@
+*.html eol=lf
+*.json eol=lf
+*.xml eol=lf
+*.yml eol=lf
+*.mss eol=lf
+*.db eol=lf
+

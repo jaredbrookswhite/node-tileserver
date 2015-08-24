@@ -1,0 +1,10 @@
+.DS_Store
+.settings
+node_modules
+
+log/*
+!log/.*
+
+maps/*
+!maps/
+!maps/sample*
