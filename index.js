@@ -5,7 +5,7 @@
 
 // increase the libuv threadpool size to 1.5x the number of logical CPUs.
 process.env.UV_THREADPOOL_SIZE = Math.ceil(Math.max(4, require('os').cpus().length * 1.5));
-process.title = 'mapbox-server';
+process.title = 'tilejar-server';
 
 var tm = require('./lib/tm');
 var path = require('path');
@@ -43,5 +43,5 @@ function listen(err) {
 function finish(err) {
     if (err) throw err;
     server.emit('ready');
-    logger.debug('Mapbox Server @ http://localhost:'+tm.config().port+'/');
+    logger.debug('Tilejar Server @ http://localhost:'+tm.config().port+'/');
 }

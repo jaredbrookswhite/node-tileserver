@@ -26,9 +26,9 @@
         layers.push(L.tileLayer('/maps/' + target[t] + '/{z}/{x}/{y}.png'));
     }
     if (target){
-        var map = L.map('map', {
-            center: [31, -99],
-            zoom: 4,
+        L.map('map', {
+            center: [40.75, -74],
+            zoom: 11,
             layers: layers
         })
     }
