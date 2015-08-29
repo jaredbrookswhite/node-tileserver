@@ -21,7 +21,7 @@ To run the sample, first, install some software.
   node index.js
 ```
 
-navigate to [the server](http://localhost:8000/?map=sample)
+navigate to [the server](http://localhost:8000/?map=roads)
 
 -------
 
