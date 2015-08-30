@@ -1,5 +1,5 @@
 create database geodata;
-use geodata;
+\c geodata;
 drop table map_sources;
 drop table map_styles;
 create table map_sources(

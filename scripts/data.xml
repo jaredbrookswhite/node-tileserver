@@ -18,15 +18,17 @@
     <Datasource>
        <Parameter name="dbname"><![CDATA[geodata]]></Parameter>
        <Parameter name="extent"><![CDATA[-180,-85.0511,180,85.0511]]></Parameter>
-       <Parameter name="geometry_field"><![CDATA[wkb_geometry]]></Parameter>
-       <Parameter name="geometry_table"><![CDATA[roads]]></Parameter>
+       <Parameter name="geometry_field"><![CDATA[geom]]></Parameter>
+       <Parameter name="geometry_table"><![CDATA[tenn_roads]]></Parameter>
        <Parameter name="host"><![CDATA[localhost]]></Parameter>
-       <Parameter name="key_field"><![CDATA[ogc_fid]]></Parameter>
+       <Parameter name="key_field"><![CDATA[gid]]></Parameter>
        <Parameter name="max_size"><![CDATA[512]]></Parameter>
        <Parameter name="password"><![CDATA[]]></Parameter>
        <Parameter name="port"><![CDATA[5432]]></Parameter>
-       <Parameter name="table"><![CDATA[( SELECT * FROM roads
-  WHERE wkb_geometry && !bbox!
+       <Parameter name="table"><![CDATA[( 
+         SELECT * FROM tenn_roads 
+ where
+ geom && !bbox!
 ) AS data]]></Parameter>
        <Parameter name="type"><![CDATA[postgis]]></Parameter>
        <Parameter name="user"><![CDATA[postgres]]></Parameter>
