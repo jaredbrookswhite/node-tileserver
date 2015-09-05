@@ -11,4 +11,3 @@ ALTER TABLE tenn_roads ADD column gid serial;
 SELECT UpdateGeometrySRID('tenn_roads','geom',4326);
 CREATE INDEX idx_tenn_roads ON tenn_roads USING gist(geom);
 vacuum analyze tenn_roads;
-vacuum;
