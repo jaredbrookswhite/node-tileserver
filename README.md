@@ -4,6 +4,8 @@
 This is a draft of a more robust tile server that takes advantage of styles and sources generated in mapbox studio.
 To run the sample, first, install some software.
 
+[![Build Status](https://travis-ci.org/jaredbrookswhite/tilejar.svg?branch=dev)](https://travis-ci.org/jaredbrookswhite/tilejar)
+
   - Install postgresql and postgis, I recommend [Boundless' opengeo suite](http://boundlessgeo.com/solutions/opengeo-suite/)
   - Install the GDAL library
   

@@ -3,21 +3,21 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "body-parser": "1.9.x",
-    "cors": "~2.3.1",
-    "express": "3.18.x",
-    "fastlog": "1.0.0",
-    "getport": "0.1.x",
+    "body-parser": "^1.9.x",
+    "cors": "^2.3.1",
+    "express": "^3.18.x",
+    "fastlog": "^1.0.0",
+    "getport": "^0.1.x",
     "grunt": "^0.4.5",
     "mapbox-base-css": "https://mapbox-npm.s3.amazonaws.com/package/mapbox-base-css-0.0.7-0e00453aefa340251baa4d2e12e293f4558a23f9.tgz",
     "mapbox-studio-default-fonts": "https://mapbox-npm.s3.amazonaws.com/package/mapbox-studio-default-fonts-0.0.4-4afb5235f457bd1c1a5a70fce6c2aa83bf7a851e.tgz",
     "mapbox-studio-pro-fonts": "https://mapbox-npm.s3.amazonaws.com/package/mapbox-studio-pro-fonts-1.0.0-9870a90b713f307b9391829602f4d5857e419615.tgz",
-    "mapnik": "3.2.0",
-    "minimist": "0.1.x",
+    "mapnik": "^3.2.0",
+    "minimist": "^0.1.x",
     "pg": "^4.4.1",
-    "tilelive": "~5.7.0",
-    "tilelive-bridge": "~1.2.7",
-    "tilelive-vector": "~3.2.5",
-    "underscore": "1.4.x"
+    "tilelive": "^5.7.0",
+    "tilelive-bridge": "^1.2.7",
+    "tilelive-vector": "^3.2.5",
+    "underscore": "^1.4.x"
   }
 }
