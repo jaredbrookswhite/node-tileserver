@@ -5,7 +5,7 @@ const app = koa();
 const port = 3000;
 
 function *index() {
-  this.body = 'Hello World';
+  this.body = 'Hello Universe';
 }
 
 app.use(route.get('/', index));
