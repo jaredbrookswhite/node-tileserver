@@ -1,9 +1,13 @@
 {
   "name": "react-transform-boilerplate",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint -c .eslintrc src"
+  },
+  "engines": {
+    "node": "4.1.1"
   },
   "author": "Jared White <jaredbrookswhite@me.com> (http://github.com/jaredbrookswhite)",
   "license": "CC0-1.0",
