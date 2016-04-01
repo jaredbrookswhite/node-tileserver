@@ -1,23 +1,30 @@
 {
-  "name": "node-tileserver",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-transform-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint -c .eslintrc src"
+  },
+  "author": "Jared White <jaredbrookswhite@me.com> (http://github.com/jaredbrookswhite)",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "babel-eslint": "^6.0.1",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.2",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-import": "^1.0.1",
+    "eslint-plugin-react": "^4.1.0",
+    "piping": "^0.3.0"
+  },
   "dependencies": {
-    "body-parser": "^1.9.x",
-    "cors": "^2.3.1",
-    "express": "^3.18.x",
-    "fastlog": "^1.0.0",
-    "getport": "^0.1.x",
-    "grunt": "^0.4.5",
-    "mapbox-base-css": "https://mapbox-npm.s3.amazonaws.com/package/mapbox-base-css-0.0.7-0e00453aefa340251baa4d2e12e293f4558a23f9.tgz",
-    "mapbox-studio-default-fonts": "https://mapbox-npm.s3.amazonaws.com/package/mapbox-studio-default-fonts-0.0.4-4afb5235f457bd1c1a5a70fce6c2aa83bf7a851e.tgz",
-    "mapbox-studio-pro-fonts": "https://mapbox-npm.s3.amazonaws.com/package/mapbox-studio-pro-fonts-1.0.0-9870a90b713f307b9391829602f4d5857e419615.tgz",
-    "mapnik": "^3.2.0",
-    "minimist": "^0.1.x",
-    "pg": "^4.4.1",
-    "tilelive": "^5.7.0",
-    "tilelive-bridge": "^1.2.7",
-    "tilelive-vector": "^3.2.5",
-    "underscore": "^1.4.x"
+    "babel-core": "^6.5.2",
+    "babel-plugin-typecheck": "^3.7.0",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "koa": "^1.1.2",
+    "koa-route": "^2.4.2"
   }
 }
